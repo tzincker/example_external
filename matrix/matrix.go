@@ -54,6 +54,6 @@ func (m *Matrix) Print() {
 		fmt.Print(" ] ")
 		fmt.Println()
 	}
-	fmt.Println((*m).M, "x", (*m).W)
+	fmt.Println((*m).H, "x", (*m).W)
 	fmt.Println()
 }
